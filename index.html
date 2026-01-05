@@ -2,14 +2,43 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>System</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bild Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        a:hover {
+            background-color: #444;
+        }
+    </style>
 </head>
 <body>
-    <div class="overlay"></div>
 
-    <div class="message">
-        Du wurdest gehackt
-    </div>
+    <h1>Mein Bild</h1>
+
+    <img src="bild.png" alt="Mein Bild">
+
+    <br>
+
+    <a href="bild.png" download>⬇️ Bild herunterladen</a>
+
 </body>
 </html>
